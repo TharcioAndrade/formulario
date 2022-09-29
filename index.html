@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Formulario moda fulaneia</h1>
+            <p>Obrigado pela confiança no nosso conteudo, participe do nosso mundo, cadastre-se:</p>
+        </header>
+        <div class="formContainer">
+            <form action="">
+                <div class="formGroup">
+                    <label for="name" id="name-label">Nome</label>
+                    <input class="inputMod" type="text" name="name" id="name" placeholder="Insira seu nome">
+                </div>
+                <div class="formGroup">
+                    <label for="name" id="name-label">Senha</label>
+                    <input class="inputMod" type="password" name="name" id="name" placeholder="Insira seu nome">
+                </div>
+                <div class="formGroup">
+                    <label for="email" id="email-label">E-mail</label>
+                    <input class="inputMod" type="text" name="email" id="email" placeholder="Insira seu email">
+                </div>
+                <div class="formGroup">
+                    <label for="age" id="age-label">Idade <span>(opcional)</span> </label>
+                    <input class="inputMod" type="text" name="idade" id="idade" placeholder="Idade">
+                </div>
+                <div class="formGroup">
+                    <label for="funcao" id="name-label">Qual opção melhor descreve sua função atual?</label>
+                    <select name="funcao" id="funcao" placeholder="Qual opção melhor descreve sua função atual?">
+                            <option disabled selected id="naoSelecionado">Selecione sua função atual</option>
+                            <option value="estudante">Estudante</option>
+                            <option value="integral">Trabalho em tempo integral</option>
+                            <option value="estudanteIntegral">Estudo em tempo integral</option>
+                            <option value="naoDizer">Prefiro nao dizer</option>
+                            <option value="outros">Outros</option>
+                    </select>
+                </div>
+                <div class="formGroup">
+                    <p id="paragrafoRecomendaria">Recomendaria nosso site para alguma amiga?</p>
+                    <input class="inputRecomend" type="radio" name="recomend" id="definitivamente" value="definitivamente">
+                    <label for="definitivamente">Definitivamente</label> <br>
+                    <input class="inputRecomend" type="radio" name="recomend" id="talvez" value="talvez">
+                    <label for="talvez">Talvez</label> <br>
+                    <input class="inputRecomend" type="radio" name="recomend" id="nao" value="nao">
+                    <label for="nao">Nao</label>
+                </div>
+                <div class="formGroup">
+                    <p id="paragrafoRecomendaria">Quais seus maiores interesses ?</p>
+                    <input class="inputRecomend" type="checkbox" name="moda" id="moda">
+                    <label for="moda">Moda</label> <br>
+                    <input class="inputRecomend" type="checkbox" name="viagens" id="viagens">
+                    <label for="moda">Viagens</label> <br>
+                    <input class="inputRecomend" type="checkbox" name="cabelo" id="cabelo">
+                    <label for="moda">Cabelo</label> <br>
+                    <input class="inputRecomend" type="checkbox" name="manicure" id="manicure">
+                    <label for="moda">Manicure</label> <br>
+                    <input class="inputRecomend" type="checkbox" name="nutricao" id="nutricao">
+                    <label for="moda">Nutrição</label> <br>
+                    <input class="inputRecomend" type="checkbox" name="maquiagem" id="maquiagem">
+                    <label for="moda">Maquiagem</label> <br>
+                    <input class="inputRecomend" type="checkbox" name="intima" id="intima">
+                    <label for="moda">Moda-intima</label> <br>
+                    <input class="inputRecomend" type="checkbox" name="literatura" id="literatura">
+                    <label for="moda">Literatura</label> <br>
+                    <input class="inputRecomend" type="checkbox" name="pets" id="pets">
+                    <label for="moda">Pets</label> <br>
+                </div>
+                <div class="formGroup">
+                    <p id="paragrafoRecomendaria">Sugestões ? deixe aqui a sua !</p>
+                    <!--<input type="textarea" id="textArea" placeholder="Deixe seu comentario aqui" rows="20" cols="20" wrap="hard">-->
+                    <textarea class="textAreaR" name="opiniao" id="opiniao" ></textarea>
+                </div>
+                <div class="formGroup">
+                    <input class="inputMod" id="submit" type="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
